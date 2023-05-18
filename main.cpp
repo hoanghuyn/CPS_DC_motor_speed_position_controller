@@ -6,7 +6,7 @@
  * 
  * This is main function in application layer.
  *
- * Author: Tran Quang Dieu, Nguyen Huy Hoang, Vo Van Ling, Mai Huynh Tuan Vu
+ * Author: Tran Quang Dieu, Nguyen Huy Hoang, Vo Van Linh, Mai Huynh Tuan Vu
  *
  * Last Changed By:  $Author: HoangNH $
  * Revision:         $Revision: 1.0$
