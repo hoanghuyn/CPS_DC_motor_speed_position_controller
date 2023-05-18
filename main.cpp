@@ -89,15 +89,9 @@ void setup()
 
   // Thong so PID vi tri
   T = 0.01;    // Thoi gian lay mau: 10ms
-  Kp = 15;     // Lon, dap ung nhanh, lọt vố lớn
-  Kd = 1.5;    // Điều chỉnh độ lọt vố
-  Ki = 0.0001; // Thời gian tác động
-
-  // Thong so PID toc do
-  // T = 0.01; // Thoi gian lay mau: 10ms
-  // Kp = 61.5;  // Lon, dap ung nhanh, lọt vố lớn
-  // Ki = 0.0001;   // Thời gian tác động, 0.0001
-  // Kd = 0.2;   // Điều chỉnh độ lọt vố, 5
+  Kp = 15;     
+  Kd = 1.5;    
+  Ki = 0.0001; 
   
   Serial.begin(74880);
   attachInterrupt(0, IRQ_Pulse_Counter_Encoder, FALLING);
